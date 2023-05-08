@@ -1,0 +1,103 @@
+<%- include("../partials/header") %>
+
+    <div class="game-page">
+
+        <div class="game-head">
+            <h1 class="game-page-title">VLV Games</h1>
+        </div>
+
+        <div id="gameCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="/triton"><img src="/images/BookofPoseidon.png" class="d-block w-100"
+                            alt="Book of Poseidon">
+                        <div class="carousel-caption car-cap">
+                            <!-- <h3>Book of Poseidon</h3> -->
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/cherry"><img src="/images/cherry-heart.png" class="d-block w-100" alt="Cherry Heart">
+                        <div class="carousel-caption car-cap">
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/golden-ark"><img src="/images/golden-ark.png" class="d-block w-100" alt="Golden Eye">
+                        <div class="carousel-caption car-cap">
+                            <h3>Golden Ark</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#gameCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#gameCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <div class="container justify-content-evenly">
+
+            <div class="row">
+                <div class="col-6 col-md-4 game-item">
+                    <a href="/keno">
+                        <img class="game-tile keno-tile" src="/images/keno-tile.png">
+                        <div class="title-overlay">
+                            <h2>Keno</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 game-item">
+                    <a href="/mahjong">
+                        <img class="game-tile mahjong-tile" src="/images/mahjong.png">
+                        <div class="title-overlay">
+                            <h2>Mahjong</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 game-item">
+                    <a href="/triton">
+                        <img class="game-tile" src="/images/bop.png">
+                        <div class="title-overlay">
+                            <h2>Book of Poseidon</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6 col-md-4 game-item">
+                    <a href="/golden-ark">
+                        <img class="game-tile" src="/images/golden-ark.png">
+                        <div class="title-overlay">
+                            <h2>Golden Ark</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 game-item">
+                    <a href="/Mafia-Slot">
+                        <img class="game-tile" src="/images/mafia-slot.png">
+                        <div class="title-overlay"?>
+                            <h2>Mafia Slot</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 game-item">
+                    <a href="/cherry">
+                        <img class="game-tile" src="/images/cherry-heart.png">
+                        <div class="title-overlay">
+                            <h2>Cherry Heart</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <%- include("../partials/footer") %>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>RiskES</name>
+    <events>
+        <include>BonusES</include>
+        <event-block sid="233105993295612">
+            <conditions>
+                <condition id="3" name="On touched object" sid="877538477110956" type="Touch">
+                    <param id="0" name="Object">BorR</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="119825776195287" type="BorRstt">
+                    <param id="0" name="Instance variable">STT</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">BorRcard.stt</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="358279312965002" type="BorR">
+                    <param id="0" name="Instance variable">touch</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="601154939501980" type="BorRstt">
+                    <param id="0" name="Frame number">BorRcard.AnimationFrame+1</param>
+                </action>
+                <action id="-11" name="Add to" sid="492522228178260" type="BorRcard">
+                    <param id="0" name="Instance variable">stt</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="6" name="Set speed" sid="381949227391518" type="BorRcard">
+                    <param id="0" name="Speed">20</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="710774502612974">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="641669412461338" type="BorR">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="932270893657921" type="BorRcard">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="114006367603051" type="info">
+                            <param id="0" name="Instance variable">winamount</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Set item" sid="813415758404356" type="LocalStorage">
+                            <param id="0" name="Key">&quot;winamount&quot;</param>
+                            <param id="1" name="Value">info.winamount</param>
+                        </action>
+                        <action id="0" name="Set text" sid="667774524604263" type="winTEXT">
+                            <param id="0" name="Text">&quot;$&quot;&amp;info.winamount</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="693203320386132" type="BorR">
+                            <param id="0" name="Instance variable">touch</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="904846560021914" type="Audio">
+                            <param id="0" name="Audio file">SPIN</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="498709953635532" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="683080896328542" type="System">
+                            <param id="0" name="Layout">GameBG</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="985644635534605">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="412166869425068" type="BorR">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="829802701565634" type="BorRcard">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="366334261072622" type="info">
+                            <param id="0" name="Instance variable">winamount</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Set item" sid="858264369341657" type="LocalStorage">
+                            <param id="0" name="Key">&quot;winamount&quot;</param>
+                            <param id="1" name="Value">info.winamount</param>
+                        </action>
+                        <action id="0" name="Set text" sid="456431312589276" type="winTEXT">
+                            <param id="0" name="Text">&quot;$&quot;&amp;info.winamount</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="572647282601034" type="BorR">
+                            <param id="0" name="Instance variable">touch</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="449307170776979" type="Audio">
+                            <param id="0" name="Audio file">SPIN</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="140115955770247" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="279168093874534" type="System">
+                            <param id="0" name="Layout">GameBG</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="171193619445261">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="278315980683974" type="BorRcard">
+                    <param id="0" name="Instance variable">stt</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="825024135570044" type="System" />
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="930282079161036" type="info">
+                    <param id="0" name="Instance variable">credit</param>
+                    <param id="1" name="Value">info.winamount*2</param>
+                </action>
+                <action id="0" name="Set item" sid="729790976489287" type="LocalStorage">
+                    <param id="0" name="Key">&quot;credit&quot;</param>
+                    <param id="1" name="Value">info.credit</param>
+                </action>
+                <action id="0" name="Set text" sid="145579039956647" type="CreditText">
+                    <param id="0" name="Text">&quot;$&quot;&amp;info.credit</param>
+                </action>
+                <action id="-10" name="Set value" sid="222652016646079" type="info">
+                    <param id="0" name="Instance variable">winamount</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Set item" sid="764567602425029" type="LocalStorage">
+                    <param id="0" name="Key">&quot;winamount&quot;</param>
+                    <param id="1" name="Value">info.winamount</param>
+                </action>
+                <action id="0" name="Set text" sid="492239377344521" type="winTEXT">
+                    <param id="0" name="Text">&quot;$&quot;&amp;info.winamount</param>
+                </action>
+                <action id="0" name="Play" sid="289919696421536" type="Audio">
+                    <param id="0" name="Audio file">stop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="628264911490731" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="858064170529418" type="System">
+                    <param id="0" name="Layout">GameBG</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,79 @@
+<?xml version='1.0' ?>
+	<!-- ||| Instructions halloween slot |||-->
+
+<config>
+	<!-- ||| START GENERAL CONFIG ||| -->
+	<start_credit>10000</start_credit> <!-- setting starting credit, if you want to override it, just type the number between <start_credit> and </start_credit>  -->
+	<disable_add_credit>no</disable_add_credit> <!-- disable add credit button, if you want to disable it, just type yes between <disable_add_credit> and </disable_add_credit>  -->
+	<add_per_click>500</add_per_click> <!-- add credit when click add credit button, if you want to override it, just type the number between <add_per_click> and </add_per_click>  -->
+	<youtube_id>RehIvbzuJLE</youtube_id> <!-- show youtube ads when click add credit button, if you want to override it, just type the url between <url_click> and </url_click>  -->
+	<cost_per_line>1</cost_per_line> <!-- cost of line, if you want to override it, just type the number between <cost_per_line> and </cost_per_line>  -->
+	<max_bet_line>5</max_bet_line> <!-- prizes will be multiplied by 5, if you want to override it, just type the number between <cost_per_line> and </cost_per_line>  -->
+	<!-- ||| END GENERAL CONFIG ||| -->
+	
+	<!-- ||| START SETTING LANGUAGE||| -->
+	<wild_symbol_name>Wild symbol</wild_symbol_name>
+	<treasure_symbol_name>Treasure chest</treasure_symbol_name>
+	<book_symbol_name>Book of Poseidon</book_symbol_name>
+	<book_text>3 or more scatters on the screen trigger 10 free game with special expanding symbol. The special expanding symbol can not be substituted by a scatter symbol dungring Free Game</book_text>
+	<treasure_text>3 or more Treasure chest let you play a Bonus Game</treasure_text>
+	<risk_text>Choose RED or BLACK to gamble or take win!</risk_text>
+	<free_game_text>Free game: </free_game_text>
+	<credit_text>Credit</credit_text>
+	<bet_text>Bet</bet_text>
+	<lines_text>Lines</lines_text>
+	<win_text>Win</win_text>
+	<add_credit_text>Add Credit by watching video</add_credit_text>
+	<risk_btn>RISK</risk_btn>
+	<spin_btn>SPIN</spin_btn>
+	<info_btn>INFO</info_btn>
+	<bet_btn>BET</bet_btn>
+	<lines_btn>LINES</lines_btn>
+	<auto_btn>AUTO</auto_btn>
+	<!-- ||| END SETTING LANGUAGE||| -->
+	
+	<!-- ||| START PAY TABLE CONFIG||| -->
+	<three_tensymbol>5</three_tensymbol> <!-- prize of three ten symbol  -->	
+	<four_tensymbol>10</four_tensymbol> <!-- prize of four ten symbol  -->	
+	<five_tensymbol>30</five_tensymbol> <!-- prize of five ten symbol  -->
+	
+	<three_j>10</three_j> <!-- prize of three j symbol  -->
+	<four_j>20</four_j> <!-- prize of four j symbol  -->
+	<five_j>60</five_j> <!-- prize of five j symbol  -->
+	
+	<!-- make similar with these below  -->
+	<three_q>20</three_q>
+	<four_q>40</four_q>
+	<five_q>120</five_q>
+	
+	<three_k>30</three_k>
+	<four_k>60</four_k>
+	<five_k>180</five_k>
+	
+	<three_a>40</three_a>
+	<four_a>80</four_a>
+	<five_a>160</five_a>
+	
+	<three_whale>50</three_whale>
+	<four_whale>100</four_whale>
+	<five_whale>300</five_whale>
+	
+	<three_pearl>60</three_pearl>
+	<four_pearl>120</four_pearl>
+	<five_pearl>360</five_pearl>
+	
+	<three_chest>70</three_chest>
+	<four_chest>140</four_chest>
+	<five_chest>420</five_chest>
+	
+	<three_book>80</three_book>
+	<four_book>160</four_book>
+	<five_book>480</five_book>
+	
+	<three_poseidon>90</three_poseidon>
+	<four_poseidon>180</four_poseidon>
+	<five_poseidon>540</five_poseidon>
+	<!-- ||| END PAY TABLE CONFIG||| -->
+</config>
+
+	<!-- ||| congratulations, completed your config |||-->
